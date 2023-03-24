@@ -7,6 +7,8 @@ import com.practice.swaglabs.base.BaseTest;
 
 public class LoginPageTest extends BaseTest{
 	
+	int i=10;
+	
 	@Test
 	public void loginPageTitleTest() {
 		String actualTitle=loginPage.getLoginPageTitle();
